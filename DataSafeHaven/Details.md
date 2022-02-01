@@ -1,6 +1,8 @@
 # Data Safe Haven
 
-## Details
+## Details of Share
+
+A ***share*** is the part of the DSH that we have access to and where our data will be stored.
 
 - **Case Ref**: 895
 
