@@ -12,7 +12,7 @@ Let the IAA (Information Asset Administrator) for the share know you have done s
 
 The IAA will request that you be added and you will receive an email asking you to choose and attend a session with the DSH where you will get your credentials.
 
-***Note to IAA***: Leave sufficient time between the certificate being uploaded and creating a new user for the certificate to be recorded.
+***Note to IAA***: Leave sufficient time between the certificate being uploaded and trying to create a new user for the certificate to have been fully recorded in the IDS systems.
 
 ## Step 4
 
