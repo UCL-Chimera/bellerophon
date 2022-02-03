@@ -11,3 +11,19 @@ Let the IAA (Information Asset Administrator) for the share know you have done s
 ## Step 3
 
 The IAA will request that you be added and you will receive an email asking you to choose and attend a session with the DSH where you will get your credentials.
+
+***Note to IAA***: Leave sufficient time between the certificate being uploaded and creating a new user for the certificate to be recorded.
+
+## Step 4
+
+Let the IAA know you have done the DSH onboarding and let them know your DSH ID. They will then add you to the CHIMERA shared data.
+
+---
+
+### Links for IAA
+
+*Note: will only work if you are logged into UCL Teams.*
+
+[Adding users](https://www.ucl.ac.uk/isd/services/file-storage-sharing/data-safe-haven/service-requests)
+
+[Status of share](https://liveuclac.sharepoint.com/sites/ISD.IGAdvisoryService/Lists/Cases/Portal.aspx?viewpath=%2Fsites%2FISD%2EIGAdvisoryService%2FLists%2FCases%2FPortal%2Easpx)
