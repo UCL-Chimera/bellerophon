@@ -16,7 +16,7 @@ The IAA will request that you be added and you will receive an email asking you 
 
 ## Step 4
 
-Let the IAA know you have done the DSH onboarding and let them know your DSH ID. They will then add you to the CHIMERA shared data.
+Let the IAA know you have done the DSH onboarding and send them your DSH ID. They will then add you to the CHIMERA shared data.
 
 ---
 
