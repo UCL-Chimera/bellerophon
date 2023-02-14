@@ -1,0 +1,9 @@
+concept_code,vocabulary_id,concept_id,concept_name,domain_id,Comment
+386725007,SNOMED,4302666,Body temperature,Measurement,
+19254-2,LOINC,3013702,Oxygen [Partial pressure] adjusted to patient's actual temperature in Blood,Measurement,
+11557-6,LOINC,3013290,Carbon dioxide [Partial pressure] in Blood,Measurement,
+11558-4,LOINC,3010421,pH of Blood,Measurement,
+32693-4,LOINC,3047181,Lactate [Moles/volume] in Blood,Measurement,
+14879-1,LOINC,3003458,Phosphate [Moles/volume] in Serum or Plasma,Measurement,
+250875001,SNOMED,,Ventilator delivered minute volume,Measurement,Not yet mapped correctly currently 417408007
+19214-6,LOINC,, Oxygen [Partial pressure] saturation adjusted to 0.5 in Arterial blood,,Not yet mapped correctly
