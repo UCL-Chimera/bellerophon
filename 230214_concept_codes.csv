@@ -6,4 +6,16 @@ concept_code,vocabulary_id,concept_id,concept_name,domain_id,Comment
 32693-4,LOINC,3047181,Lactate [Moles/volume] in Blood,Measurement,
 14879-1,LOINC,3003458,Phosphate [Moles/volume] in Serum or Plasma,Measurement,
 250875001,SNOMED,,Ventilator delivered minute volume,Measurement,Not yet mapped correctly currently 417408007
-19214-6,LOINC,, Oxygen [Partial pressure] saturation adjusted to 0.5 in Arterial blood,,Not yet mapped correctly
+19214-6,LOINC,, Oxygen [Partial pressure] saturation adjusted to 0.5 in Arterial blood,Measurement,Not yet mapped correctly
+250784008,SNOMED,,End tidal carbon dioxide concentration,Measurement,Not yet mapped correctly
+1994-3,LOINC,3021119,Calcium.ionized [Moles/volume] in Blood,Measurement,Ca (blood gas)
+2947-0,LOINC,3000285,Sodium [Moles/volume] in Blood,Measurement,Na (blood gas) Not mapped
+75940-7,LOINC,21490733,Potassium [Mass/volume] in Blood,Measurement,K (blood gas) Not Mapped
+1963-8,LOINC,21490733,Bicarbonate [Moles/volume] in Serum or Plasma,Measurement,bicarb (blood gas)
+11555-0,LOINC,3012501,Base excess in Blood by calculation,Measurement,base excess (blood gas)
+2069-3,LOINC,3018572,Chloride [Moles/volume] in Blood,Measurement,Cl (blood gas)
+2593-2,LOINC,3033836,Magnesium [Moles/volume] in Blood,Measurement,Magnesium (labs)
+1751-7,LOINC,3024561,Albumin [Mass/volume] in Serum or Plasma,Measurement,Albumin (labs)
+22664-7,LOINC,3020779,Urea [Moles/volume] in Serum or Plasma,Measurement,Urea (labs)
+,,,,,Transfusions
+,,,,,Diagnosis
