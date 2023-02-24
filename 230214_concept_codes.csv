@@ -8,21 +8,19 @@ concept_code,vocabulary_id,concept_id,concept_name,domain_id,Comment
 20563-3,LOINC,3023081,Carboxyhemoglobin/Hemoglobin.total in Blood,Measurement,CO/Hb (POC)
 2069-3,LOINC,3018572,Chloride [Moles/volume] in Blood,Measurement,Cl (POC)
 15045-8,LOINC,3006442,Creatine [Moles/volume] in Serum or Plasma,Creatinine,Cr(POC)
-4536-9,LOINC,3011689,Deoxyhemoglobin/Hemoglobin.total in Blood,Total Haemoglobin,
+4536-9,LOINC,3011689,Deoxyhemoglobin/Hemoglobin.total in Blood,,Total Haemoglobin (POC)
 250784008,SNOMED,4353938,End tidal carbon dioxide concentration,Measurement,ETCO2
-2339-0,LOINC,3000483,Glucose [Mass/volume] in Blood,Glucose,
 32693-4,LOINC,3047181,Lactate [Moles/volume] in Blood,Measurement,This is  curretnly pulling in Winpath Lactate also. They are not all POC
 2593-2,LOINC,3033836,Magnesium [Moles/volume] in Blood,Measurement,Magnesium (labs)
 2614-6,LOINC,3007930,Methemoglobin/Hemoglobin.total in Blood,Measurement, Met/Hb (blood gas)
 19254-2,LOINC,3013702,Oxygen [Partial pressure] adjusted to patient's actual temperature in Blood,Measurement,"PaO2 Issue: This is probably the NNU, but could be anywhere that has put a temperature in. May miss Nurse entered values"
 11556-8,LOINC,3027315,Oxygen [Partial pressure] in Blood,Measurement,PaO2 Issue: This is not temperature corrected also includes flow sheet entered values when link broken
-19214-6,LOINC,3015968,Oxygen [Partial pressure] saturation adjusted to 0.5 in Arterial blood,Oxygen tension at 50% saturation,
-20564-1,LOINC,3013502,Oxygen saturation in Blood,Oxyhaemoglobin,This may not be correct CB Check
+19214-6,LOINC,3015968,Oxygen [Partial pressure] saturation adjusted to 0.5 in Arterial blood,,Oxygen tension at 50% saturation (POC)
+20564-1,LOINC,3013502,Oxygen saturation in Blood,,Oxyhaemoglobin This may not be correct CB Check
 11558-4,LOINC,3010421,pH of Blood,Measurement,
-49701-6,LOINC,3030091,pH of Blood adjusted to patient's actual temperature,Temperature corrected pH,
+49701-6,LOINC,3030091,pH of Blood adjusted to patient's actual temperature,,Temperature corrected pH
 14879-1,LOINC,3003458,Phosphate [Moles/volume] in Serum or Plasma,Measurement,This is an POC lactate
 ,LOINC,21490733,,Measurement,K (POC) Not Mapped
 2947-0,LOINC,3000285,Sodium [Moles/volume] in Blood,Measurement,Na (POC) 
-22664-7,LOINC,3020779,Urea [Moles/volume] in Serum or Plasma,Measurement,Urea (labs)
-22664-7,LOINC,3020779,Urea [Moles/volume] in Serum or Plasma,Urea,
+22664-7,LOINC,3020779,Urea [Moles/volume] in Serum or Plasma,Measurement,Urea (POC)
 250875001,SNOMED,,Ventilator delivered minute volume,Measurement,Not yet mapped correctly currently 417408007
