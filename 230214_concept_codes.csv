@@ -1,6 +1,6 @@
 concept_code,vocabulary_id,concept_id,concept_name,domain_id,Comment
 11555-0,LOINC,3012501,Base excess in Blood by calculation,Measurement,base excess (POC)
-1963-8,LOINC,21490733,Bicarbonate [Moles/volume] in Serum or Plasma,Measurement,bicarb POC)
+1963-8,LOINC,3016293,Bicarbonate [Moles/volume] in Serum or Plasma,Measurement,bicarb POC) This is also pulling in lab Bicarbonate at the moment
 386725007,SNOMED,4302666,Body temperature,Measurement,
 1994-3,LOINC,3021119,Calcium.ionized [Moles/volume] in Blood,Measurement,Ca (POC)
 34705-4,LOINC,3033203,Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Blood,Measurement,"PaCO2 Issue: This is probably the NNU, but could be anywhere that has put a temperature in. May miss Nurse entered values"
@@ -22,5 +22,6 @@ concept_code,vocabulary_id,concept_id,concept_name,domain_id,Comment
 14879-1,LOINC,3003458,Phosphate [Moles/volume] in Serum or Plasma,Measurement,This is an POC lactate
 ,LOINC,21490733,,Measurement,K (POC) Not Mapped
 2947-0,LOINC,3000285,Sodium [Moles/volume] in Blood,Measurement,Na (POC) 
-22664-7,LOINC,3020779,Urea [Moles/volume] in Serum or Plasma,Measurement,Urea (POC)
+22664-7,LOINC,3020779,Urea [Moles/volume] in Serum or Plasma,Measurement,Urea (POC) This may also contain lab Urea. Needs investigating
 250875001,SNOMED,,Ventilator delivered minute volume,Measurement,Not yet mapped correctly currently 417408007
+Z51.3,ICD10,45537652,Blood Transfusion (Without reported diagnosis),Procedure,This is only taken from the problems list. Unable to find blood as a drug
