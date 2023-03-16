@@ -25,3 +25,9 @@ concept_code,vocabulary_id,concept_id,concept_name,domain_id,Comment
 22664-7,LOINC,3020779,Urea [Moles/volume] in Serum or Plasma,Measurement,Urea (POC) This may also contain lab Urea. Needs investigating
 250875001,SNOMED,,Ventilator delivered minute volume,Measurement,Not yet mapped correctly currently 417408007
 Z51.3,ICD10,45537652,Blood Transfusion (Without reported diagnosis),Procedure,This is only taken from the problems list. Unable to find blood as a drug
+250774007,SNOMED,4353936,Inspired oxygen concentration,Measurement,Checked
+250810003,SNOMED,4108446,Total breath rate,Measurement,Checked
+27913002,SNOMED,4101694,Peak inspiratory pressure,Measurement,Correct
+250810003,SNOMED,4108446,Total breath rate,Measurement,This is ventilated breath rate
+250774007,SNOMED,4353936,Inspired oxygen concentration,Checked,
+699113009,SNOMED,44782659,Expiratory positive airway pressure,This is the NIV PEEP/CPAP,
