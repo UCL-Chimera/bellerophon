@@ -28,4 +28,4 @@ Z51.3,ICD10,45537652,Blood Transfusion (Without reported diagnosis),Procedure,AB
 250774007,SNOMED,4353936,Inspired oxygen concentration,Measurement,Twin Lung,Checked
 250810003,SNOMED,4108446,Total breath rate,Measurement,Twin Lung,Checked
 27913002,SNOMED,4101694,Peak inspiratory pressure,Measurement,Twin Lung,Correct
-699113009,SNOMED,44782659,Expiratory positive airway pressure,This is the NIV PEEP/CPAP,Ventilation Misc,Correct
+699113009,SNOMED,44782659,Expiratory positive airway pressure,Measurement,Ventilation Misc,This is the NIV PEEP/CPAP

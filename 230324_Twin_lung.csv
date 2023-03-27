@@ -1,0 +1,34 @@
+concept_code,vocabulary_id,concept_id,concept_name,domain_id,Group ,Comment
+11555-0,LOINC,3012501,Base excess in Blood by calculation,Measurement,ABG,base excess (POC)
+1963-8,LOINC,3016293,Bicarbonate [Moles/volume] in Serum or Plasma,Measurement,ABG,bicarb POC) This is also pulling in lab Bicarbonate at the moment
+34705-4,LOINC,3033203,Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Blood,Measurement,ABG,"PaCO2 Issue: This is probably the NNU, but could be anywhere that has put a temperature in. May miss Nurse entered values"
+11557-6,LOINC,3013290,Carbon dioxide [Partial pressure] in Blood,Measurement,ABG,PaCO2 Issue: This is not temperature corrected also includes flow sheet entered values when link broken
+32693-4,LOINC,3047181,Lactate [Moles/volume] in Blood,Measurement,ABG,This is  curretnly pulling in Winpath Lactate also. They are not all POC
+19254-2,LOINC,3013702,Oxygen [Partial pressure] adjusted to patient's actual temperature in Blood,Measurement,ABG,"PaO2 Issue: This is probably the NNU, but could be anywhere that has put a temperature in. May miss Nurse entered values"
+11556-8,LOINC,3027315,Oxygen [Partial pressure] in Blood,Measurement,ABG,PaO2 Issue: This is not temperature corrected also includes flow sheet entered values when link broken
+20564-1,LOINC,3013502,Oxygen saturation in Blood,Measurement,ABG,Oxyhaemoglobin This is the POC O2 saturation.
+11558-4,LOINC,3010421,pH of Blood,Measurement,ABG,Temperature un-corrected pH
+49701-6,LOINC,3030091,pH of Blood adjusted to patient's actual temperature,Measurement,ABG,Temperature corrected pH
+250784008,SNOMED,4353938,End tidal carbon dioxide concentration,Measurement,Respiratory monitoring,ETCO2
+442476006,SNOMED,40483579,Arterial oxygen saturation,Measurement,Respiratory monitoring,This value is  Pulse Ox for Sao2 probe. Should actually be  SCTID: 26801000237104. 
+250875001,SNOMED,,Ventilator delivered minute volume,Measurement,Ventilation,Not yet mapped correctly currently 417408007
+250774007,SNOMED,4353936,Inspired oxygen concentration,Measurement,Ventilation,Checked
+250810003,SNOMED,4108446,Total breath rate,Measurement,Ventilation,Total breath rate as given by ventilator combination of spontaneous breaths and ventilator delivered breaths
+27913002,SNOMED,4101694,Peak inspiratory pressure,Measurement,Ventilation,Correct
+260915005,SNOMED,4119048,Inspiratory/expiratory ratio (attribute),Measurement,Ventilation,Not yet mapped in EPIC I:E
+250854009,SNOMED,, Positive End Expiratory Pressure,Measurement,Ventilation,Not yet mapped in EPIC PEEP Achieved
+416595007,SNOMED,, Positive end expiratory pressure setting,Measurement,Ventilation,Not yet mapped in EPIC PEEP Setting
+86290005,SNOMED,4313591,Respiratory rate,Measurement,Ventilation,RR as entered by nursing staff. If self vent will be observed if ventilated from ventilator
+250877009,SNOMED,,Mandatory breath rate ,Measurement,Ventilation,This is the set ventilator rate. Not yet mapped
+40617009,SNOMED,4230167,Artificial respiration,Measurement,Ventilation,This is the ventilation mode. Please use the source value not the mapped answer.
+417071008,SNOMED,,Inspiratory pressure setting,Measurement,Ventilation,This pulls through both PS and PC values. Please look at source value to find out which is PS and which is PC
+386725007,SNOMED,4302666,Body temperature,Measurement,CVS,Correct
+,,,,Measurement,Demographic,Height
+,,,,Measurement,Demographic,Weight
+,,,,Measurement,Demographic,Age
+13621006,SNOMED,4029625,Tidal volume,Measurement,Ventilation,This should be SNOMED-CT - (250874002) - Ventilator delivered tidal volume
+698821009,SNOMED,,Mean inspiratory airway pressure ,Measurement,Ventilation,Not yet mapped
+76196-5,LOINC ,,Inflation trigger flow setting,Measurement,Ventilation,Not yet mapped
+76224-5,LOINC ,,Inflation trigger pressure setting ,Measurement,Ventilation,Not yet mapped
+250818005,SNOMED,,Ventilation cycle time ,Measurement,Ventilation,Not yet mapped
+60985-9,LOINC,21490675,Central venous pressure (CVP),Measurement,CVS,Correct
