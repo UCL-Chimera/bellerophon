@@ -1,31 +1,26 @@
-concept_code,vocabulary_id,concept_id,concept_name,domain_id,Project,Comment
-11555-0,LOINC,3012501,Base excess in Blood by calculation,Measurement,ABG,base excess (POC)
-1963-8,LOINC,3016293,Bicarbonate [Moles/volume] in Serum or Plasma,Measurement,ABG,bicarb POC) This is also pulling in lab Bicarbonate at the moment
-386725007,SNOMED,4302666,Body temperature,Measurement,ABG,
-1994-3,LOINC,3021119,Calcium.ionized [Moles/volume] in Blood,Measurement,ABG,Ca (POC)
-34705-4,LOINC,3033203,Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Blood,Measurement,ABG,"PaCO2 Issue: This is probably the NNU, but could be anywhere that has put a temperature in. May miss Nurse entered values"
-11557-6,LOINC,3013290,Carbon dioxide [Partial pressure] in Blood,Measurement,ABG,PaCO2 Issue: This is not temperature corrected also includes flow sheet entered values when link broken
-20563-3,LOINC,3023081,Carboxyhemoglobin/Hemoglobin.total in Blood,Measurement,ABG,CO/Hb (POC)
-2069-3,LOINC,3018572,Chloride [Moles/volume] in Blood,Measurement,ABG,Cl (POC)
-15045-8,LOINC,3006442,Creatine [Moles/volume] in Serum or Plasma,Creatinine,ABG,Cr(POC)
-4536-9,LOINC,3011689,Deoxyhemoglobin/Hemoglobin.total in Blood,,ABG,Total Haemoglobin (POC)
-250784008,SNOMED,4353938,End tidal carbon dioxide concentration,Measurement,ABG,ETCO2
-32693-4,LOINC,3047181,Lactate [Moles/volume] in Blood,Measurement,ABG,This is  curretnly pulling in Winpath Lactate also. They are not all POC
-2593-2,LOINC,3033836,Magnesium [Moles/volume] in Blood,Measurement,ABG,Magnesium (labs)
-2614-6,LOINC,3007930,Methemoglobin/Hemoglobin.total in Blood,Measurement,ABG, Met/Hb (blood gas)
-19254-2,LOINC,3013702,Oxygen [Partial pressure] adjusted to patient's actual temperature in Blood,Measurement,ABG,"PaO2 Issue: This is probably the NNU, but could be anywhere that has put a temperature in. May miss Nurse entered values"
-11556-8,LOINC,3027315,Oxygen [Partial pressure] in Blood,Measurement,ABG,PaO2 Issue: This is not temperature corrected also includes flow sheet entered values when link broken
-19214-6,LOINC,3015968,Oxygen [Partial pressure] saturation adjusted to 0.5 in Arterial blood,,ABG,Oxygen tension at 50% saturation (POC)
-20564-1,LOINC,3013502,Oxygen saturation in Blood,,ABG,Oxyhaemoglobin This may not be correct CB Check
-11558-4,LOINC,3010421,pH of Blood,Measurement,ABG,Temperature un-corrected pH
-49701-6,LOINC,3030091,pH of Blood adjusted to patient's actual temperature,,ABG,Temperature corrected pH
-14879-1,LOINC,3003458,Phosphate [Moles/volume] in Serum or Plasma,Measurement,ABG,This is an POC lactate
-6298-4   ,LOINC,,Potassium [Moles/volume] in Blood,Measurement,ABG,K (POC) Not Mapped
-2947-0,LOINC,3000285,Sodium [Moles/volume] in Blood,Measurement,ABG,Na (POC) 
-22664-7,LOINC,3020779,Urea [Moles/volume] in Serum or Plasma,Measurement,ABG,Urea (POC) This may also contain lab Urea. Needs investigating
-250875001,SNOMED,,Ventilator delivered minute volume,Measurement,ABG,Not yet mapped correctly currently 417408007
-Z51.3,ICD10,45537652,Blood Transfusion (Without reported diagnosis),Procedure,ABG,This is only taken from the problems list. Unable to find blood as a drug
-250774007,SNOMED,4353936,Inspired oxygen concentration,Measurement,Twin Lung,Checked
-250810003,SNOMED,4108446,Total breath rate,Measurement,Twin Lung,Checked
-27913002,SNOMED,4101694,Peak inspiratory pressure,Measurement,Twin Lung,Correct
-699113009,SNOMED,44782659,Expiratory positive airway pressure,Measurement,Ventilation Misc,This is the NIV PEEP/CPAP
+concept_code,vocabulary_id,concept_id,concept_name,SourceValue,domain_id,Project,Comment
+11557-6,LOINC,3013290,Carbon dioxide [Partial pressure] in Blood,AQURE CARBON DIOXIDE PARTIAL PRESSURE,Measurement,ABG,PaCO2 Issue: This is not temperature corrected also includes flow sheet entered values when link broken
+20563-3,LOINC,3023081,Carboxyhemoglobin/Hemoglobin.total in Blood,AQURE CARBOXYHEMOGLOBIN,Measurement,ABG,CO/Hb (POC)
+386725007,SNOMED,4302666,Body temperature,TEMPERATURE,Measurement,ABG,Has 3 sources in EPIC
+2069-3,LOINC,3018572,Chloride [Moles/volume] in Blood,AQURE CHLORIDE,Measurement,ABG,Cl (POC)
+15045-8,LOINC,3006442,Creatine [Moles/volume] in Serum or Plasma,AQURE CREATININE,Creatinine,ABG,Cr(POC)
+1994-3,LOINC,3021119,Calcium.ionized [Moles/volume] in Blood,AQURE IONIZED CALCIUM,Measurement,ABG,Ca (POC)
+32693-4,LOINC,3047181,Lactate [Moles/volume] in Blood,AQURE LACTATE,Measurement,ABG,This is  curretnly pulling in Winpath Lactate also. They are not all POC
+2614-6,LOINC,3007930,Methemoglobin/Hemoglobin.total in Blood,AQURE METHEMOGLOBIN,Measurement,ABG, Met/Hb (blood gas)
+11556-8,LOINC,3027315,Oxygen [Partial pressure] in Blood,AQURE OXYGEN PARTIAL PRESSURE,Measurement,ABG,PaO2 Issue: This is not temperature corrected also includes flow sheet entered values when link broken
+19214-6,LOINC,3015968,Oxygen [Partial pressure] saturation adjusted to 0.5 in Arterial blood,AQURE OXYGEN TENSION AT 50% SATURATION,,ABG,Oxygen tension at 50% saturation (POC)
+250784008,SNOMED,4353938,End tidal carbon dioxide concentration,R VENT ETCO2,Measurement,ABG,ETCO2
+20564-1,LOINC,3013502,Oxygen saturation in Blood,AQURE OXYHEMOGLOBIN,,ABG,Oxyhaemoglobin This may not be correct CB Check
+2593-2,LOINC,3033836,Magnesium [Moles/volume] in Blood,WINPATH MAGNESIUM,Measurement,ABG,Magnesium (labs)
+11558-4,LOINC,3010421,pH of Blood,AQURE PH,Measurement,ABG,Temperature un-corrected pH
+11555-0,LOINC,3012501,Base excess in Blood by calculation,AQURE STANDARD BASE EXCESS,Measurement,ABG,base excess (POC)
+1963-8,LOINC,3016293,Bicarbonate [Moles/volume] in Serum or Plasma,AQURE STANDARD BICARBONATE,Measurement,ABG,bicarb POC) This is also pulling in lab Bicarbonate at the moment
+34705-4,LOINC,3033203,Carbon dioxide [Partial pressure] adjusted to patient's actual temperature in Blood,AQURE TEMPERATURE CORRECTED CARBON DIOXIDE,Measurement,ABG,"PaCO2 Issue: This is probably the NNU, but could be anywhere that has put a temperature in. May miss Nurse entered values"
+19254-2,LOINC,3013702,Oxygen [Partial pressure] adjusted to patient's actual temperature in Blood,AQURE TEMPERATURE CORRECTED OXYGEN,Measurement,ABG,"PaO2 Issue: This is probably the NNU, but could be anywhere that has put a temperature in. May miss Nurse entered values"
+49701-6,LOINC,3030091,pH of Blood adjusted to patient's actual temperature,AQURE TEMPERATURE CORRECTED PH,,ABG,Temperature corrected pH
+4536-9,LOINC,3011689,Deoxyhemoglobin/Hemoglobin.total in Blood,AQURE TOTAL HEMOGLOBIN,,ABG,Total Haemoglobin (POC)
+14879-1,LOINC,3003458,Phosphate [Moles/volume] in Serum or Plasma,WINPATH PHOSPHATE,Measurement,ABG,This is a lab phosphate
+22664-7,LOINC,3020779,Urea [Moles/volume] in Serum or Plasma,AQURE UREA,Measurement,ABG,Urea (POC) This may also contain lab Urea. Needs investigating
+250875001,SNOMED,,Ventilator delivered minute volume,,Measurement,ABG,Not yet mapped correctly currently 417408007
+Z51.3,ICD10,45537652,Blood Transfusion (Without reported diagnosis),,Procedure,ABG,This is only taken from the problems list. Unable to find blood as a drug
+,,,,,,,
