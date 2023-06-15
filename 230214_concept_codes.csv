@@ -45,11 +45,12 @@ Z51.3,ICD10,45537652,Blood Transfusion (Without reported diagnosis),,Procedure,A
 6690-2,LOINC,3000905,Leukocytes [#/volume] in Blood by Automated count,WINPATH WHITE CELL COUNT,Measurement,Extra labs,
 777-3,LOINC,3024929,Platelets [#/volume] in Blood by Automated count,WINPATH PLATELET COUNT,Measurement,Extra labs,
 14631-6,LOINC,3006140,Bilirubin.total [Moles/volume] in Serum or Plasma,WINPATH BILIRUBIN (TOTAL),Measurement,Extra labs,
-75367002,SNOMED,4326744,Blood pressure,Blood pressure,Measurement,Extra CVS,Non Invasive Blood Pressure
-386532001,SNOMED,4303574,Invasive Arterial Pressure,R ARTERIAL LINE BLOOD PRESSURE,Measurement,Extra CVS,Arterial ABP
+75367002,SNOMED,4326744,Blood pressure,Blood pressure,Measurement,CVS,Non Invasive Blood Pressure
+386532001,SNOMED,4303574,Invasive Arterial Pressure,R ARTERIAL LINE BLOOD PRESSURE,Measurement,CVS,Arterial ABP
 8.14E+14,,44806798,Inspiratory positive airway pressure,,Measurement,Ventilation,This is the NIV IPAP
 250822000,SNOMED,4108450,Inspiration/expiration time ratio,,Measurement,Ventilation,I:E ration only present for CMV and SIMV
 416811008,SNOMED,,Tidal volume setting,,Measurement,Ventilation,Tidal volume setting for SIMV & CMV
 397155001,SNOMED,,Body position,,Measurement,Ventilation,Body position not yet mapped
-,,,,,,,
-,,,,,,,
+82799009,SNOMED,4221102,Cardiac Output,,Measurement,CVS,Cardiac Output form Oesophageal Dopler
+,,,Stroke Volume,,Measurement,CVS,Not mapped EI = 301470
+78564009,,4301868,Pulse,,Measurement,CVS,Heart Rate from Monitor
